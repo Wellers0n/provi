@@ -1,0 +1,31 @@
+{
+    "compilerOptions": {
+        "target": "es2017",
+        "module": "commonjs",
+        "noEmit": true,
+        "resolveJsonModule": true,
+        "esModuleInterop": true,
+        "skipLibCheck": true,
+        "forceConsistentCasingInFileNames": true,
+        "allowSyntheticDefaultImports": true,
+        "lib": [
+            "esnext",
+            "dom"
+        ],
+        "allowJs": false,
+        "checkJs": false,
+        "jsx": "react",
+        "outDir": "node_modules/.ts",
+        "baseUrl": ".",
+        "paths": {
+            "components/*": ["src/components/*"],
+            "pages/*": ["src/pages/*"],
+            "services/*": ["src/services/*"],
+            "context/*": ["src/context/*"]
+
+          }
+    },
+    "include": [
+        "./src/**/*"
+    ]
+}
